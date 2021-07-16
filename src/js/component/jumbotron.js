@@ -3,17 +3,26 @@ import React from "react";
 export function Jumbotron() {
 	return (
 		<div>
-			<div className="jumbotron jumbotron-fluid">
+			<div className="jumbotron">
 				<div className="container">
-					<h1 className="display-4">Fluid jumbotron</h1>
-					<p className="lead">
-						This is a modified jumbotron that occupies the entire
-						horizontal space of its parent.
+					<h1 className="display-3">A Warm Welcome!</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Pellentesque in ex nunc. Pellentesque lobortis purus mi,
+						a condimentum eros fermentum et. Nulla ultrices magna
+						congue sem pretium, sed gravida nisl malesuada.
+						Curabitur et metus id metus blandit imperdiet at in
+						lectus.
+					</p>
+					<p>
+						<a
+							className="btn btn-primary btn-lg"
+							href="#"
+							role="button">
+							Call to action!
+						</a>
 					</p>
 				</div>
-				<a className="btn btn-primary btn-lg" href="#" role="button">
-					Learn more
-				</a>
 			</div>
 		</div>
 	);

@@ -3,21 +3,12 @@ import React from "react";
 export function Navbar() {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-secondary bg-light">
-				<a className="navbar-brand" href="#">
+			<nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex bd-highlight">
+				<a className="navbar-brand flex-grow-1 " href="#">
 					Start Bootstrap
 				</a>
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon"></span>
-				</button>
-				<div className="collapse navbar-collapse" id="navbarNav">
+
+				<div className="d-flex justify-content-end" id="navbarNav">
 					<ul className="navbar-nav">
 						<li className="nav-item active">
 							<a className="nav-link" href="#">
