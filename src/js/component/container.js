@@ -3,7 +3,7 @@ import { Card } from "./card";
 
 export function Container() {
 	return (
-		<div className="row">
+		<div className="card-group mx-auto justify-content-center">
 			<Card />
 			<Card />
 			<Card />

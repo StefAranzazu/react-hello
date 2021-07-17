@@ -5,7 +5,7 @@ export function Jumbotron() {
 		<div>
 			<div className="jumbotron">
 				<div className="container">
-					<h1 className="display-3">A Warm Welcome!</h1>
+					<h1 className="display-4">A Warm Welcome!</h1>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Pellentesque in ex nunc. Pellentesque lobortis purus mi,
